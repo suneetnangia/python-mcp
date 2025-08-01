@@ -40,6 +40,11 @@ python server.py
 
 The server will start on `http://localhost:8000`
 
+## Calling the MCP server
+
+1. Open Copilot chat, switch to `Agent` mode.
+2. Type Prompt: `Say hello to Robert`
+
 ## Available Tools
 
 **greet** - Greets a person by name
@@ -48,7 +53,6 @@ Parameters: `name` (string, required)
 
 Example: `greet("Alice")` returns `"Hello, Alice from MCP server!"`
 
-Prompt: `Say hello to Robert`
 ## Testing
 
 Run tests to verify the server:
