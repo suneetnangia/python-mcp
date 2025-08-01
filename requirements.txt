@@ -1,0 +1,15 @@
+# MCP Server dependencies
+fastmcp
+fastapi>=0.115.12
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+httpx>=0.28.1
+
+# Testing dependencies
+requests>=2.31.0
+
+# Development dependencies
+black==23.11.0
+flake8==6.1.0
+pytest==7.4.3
+pytest-asyncio==0.21.1
